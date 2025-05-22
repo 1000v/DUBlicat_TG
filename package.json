@@ -1,0 +1,27 @@
+{
+  "name": "31",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test-scan": "node testChannelScan.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@mtproto/core": "^6.3.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "image-hash": "^5.3.2",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.66.0",
+    "proper-lockfile": "^4.1.2",
+    "sharp": "^0.34.2",
+    "sqlite3": "^5.1.7",
+    "telegram": "^2.26.22"
+  }
+}
